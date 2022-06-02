@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import PostIndex from "../Posts/PostIndex";
 
 function SearchByAuthor() {
   const [search, setSearch] = useState("");
@@ -19,8 +18,10 @@ function SearchByAuthor() {
         console.log(data);
       })
       .catch((err) => console.error(err));
-    setSearch("");
-  };
+			setSearch("");
+		};
+		
+	console.log(posts);
 
   return (
     <div className="search">
