@@ -20,7 +20,6 @@
 	border-radius: 5px;
 	background-color: #e5e5e5;
 	box-shadow: 0 1px 2px #272727;
-	/* max-width: 80%; */
 	text-align: center;
 
 }
@@ -33,20 +32,17 @@
 .comment-user {
 	color: #3e3d3d;
 	font-size: 14px;
-  display: flex;
 
 }
 
 .comment-name {
   font-style: italic;
-	justify-content: flex-start;
 
 }
 
 .comment-email a {
 	text-decoration: none;	
 	color: #3e3d3d;
-	justify-content: flex-end;
 
 }
 

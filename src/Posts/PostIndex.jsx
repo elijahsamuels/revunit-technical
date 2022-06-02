@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import PostTile from "../Posts/PostTile";
+import "./PostIndex.css"
 
 function PostIndex() {
   const [loading, setLoading] = useState(true);
