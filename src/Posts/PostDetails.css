@@ -1,0 +1,58 @@
+.post-details {
+	margin: 10px 10px 10px 10px;
+
+}
+
+.post-title {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.post-body {
+	margin: 1em;
+
+}
+
+
+.comment {
+	margin: 1em;
+	border: 2px solid #e5e5e5;
+	border-radius: 5px;
+	background-color: #e5e5e5;
+	box-shadow: 0 1px 2px #272727;
+	/* max-width: 80%; */
+	text-align: center;
+
+}
+
+.comment-body {
+	font-size: 16px;
+	color: #272727;
+}
+
+.comment-user {
+	color: #3e3d3d;
+	font-size: 14px;
+  display: flex;
+
+
+}
+
+.comment-name {
+  font-style: italic;
+	justify-content: flex-start;
+
+}
+
+.comment-email a {
+	text-decoration: none;	
+	color: #3e3d3d;
+	justify-content: flex-end;
+
+}
+
+.comment-email a:hover {
+	text-decoration: none;
+	color: #1900ff;
+	transition: 0.25s ease-in-out;
+}
