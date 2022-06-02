@@ -4,6 +4,7 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import PostDetails from "./Posts/PostDetails";
 import NotFound from "./Pages/NotFound";
+import Home from "./Pages/Home";
 import PostIndex from "./Posts/PostIndex";
 import Nav from "./Nav/Nav";
 
@@ -13,7 +14,7 @@ function App() {
       <BrowserRouter>
         <Nav />
         <Routes>
-          <Route path="/" element={<PostIndex />} />
+          <Route path="/" element={<Home />} />
           <Route path="posts" element={<PostIndex />} />
           <Route path="posts/:postId" element={<PostDetails />} />
           {/* <Route path="albums" element={<AlbumIndex />} /> */}
