@@ -13,11 +13,11 @@ const titleCondenser = (string) => {
 const Posts = ({ props }) => {
   return (
     <div className={"item-parent"}>
-      <div className={"item-title"}>
-        <Link to={`${props.id}` }>
+			<Link to={`${props.id}` }>
+				<div className={"item-title"}>
           {titleCondenser(props.title)}
-        </Link>
-      </div>
+				</div>
+			</Link>
     </div>
   );
 };

@@ -76,13 +76,10 @@ function PostIndex() {
               .filter((post) => post.title.includes(postTitle))
               .map((post) => (
 								<PostTile key={post.id} props={post} />
-								// <Link to={`${post.id}`} key={post.id} >
-								// </Link>
               ))}
           </div>
         </div>
       )}
-			      {/* <Outlet /> */}
 
     </div>
   );
